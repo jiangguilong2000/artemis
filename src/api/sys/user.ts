@@ -10,11 +10,11 @@ import { ErrorMessageMode } from '/#/axios';
 import md5 from 'js-md5';
 
 enum Api {
-  Login = '/mate-uaa/oauth/token',
-  Logout = '/mate-uaa/auth/logout',
-  GetUserInfo = '/mate-uaa/auth/get/user',
+  Login = '/uaa/oauth/token',
+  Logout = '/uaa/auth/logout',
+  GetUserInfo = '/uaa/auth/get/user',
   GetPermCode = '/getPermCode',
-  GetCaptcha = '/mate-uaa/auth/code',
+  GetCaptcha = '/uaa/auth/code',
 }
 
 /**
