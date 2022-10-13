@@ -142,6 +142,6 @@
         registerPasswordModal,
         handlePasswordSuccess,
       };
-    },
+    }
   });
 </script>
