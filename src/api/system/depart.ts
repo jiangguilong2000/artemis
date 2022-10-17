@@ -2,9 +2,9 @@ import { DepartVO, DepartDTO, Depart } from './model/departModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  List = '/mate-system/depart/list',
-  Set = '/mate-system/depart/set',
-  Del = '/mate-system/depart/del',
+  List = '/system/depart/list',
+  Set = '/system/depart/set',
+  Del = '/system/depart/del',
 }
 
 // 菜单树

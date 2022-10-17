@@ -2,10 +2,10 @@ import { DictVO, DictDTO, Dict } from './model/dictModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/dict/page',
-  Set = '/mate-system/dict/set',
-  Del = '/mate-system/dict/del',
-  SubPage = '/mate-system/dict/list-value',
+  Page = '/system/dict/page',
+  Set = '/system/dict/set',
+  Del = '/system/dict/del',
+  SubPage = '/system/dict/list-value',
 }
 
 // 分页查询

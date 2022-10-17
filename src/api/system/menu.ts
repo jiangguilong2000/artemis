@@ -2,10 +2,10 @@ import { MenuVO, Menu } from './model/menuModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  List = '/mate-system/menu/list',
-  Set = '/mate-system/menu/set',
-  Del = '/mate-system/menu/del',
-  CheckChild = '/mate-system/menu/check-child',
+  List = '/system/menu/list',
+  Set = '/system/menu/set',
+  Del = '/system/menu/del',
+  CheckChild = '/system/menu/check-child',
 }
 
 // 菜单树

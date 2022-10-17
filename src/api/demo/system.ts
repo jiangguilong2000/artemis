@@ -13,13 +13,13 @@ import {
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  AccountList = '/mate-system/user/page',
+  AccountList = '/system/user/page',
   IsAccountExist = '/system/accountExist',
-  DeptList = '/mate-system/depart/list',
+  DeptList = '/system/depart/list',
   setRoleStatus = '/system/setRoleStatus',
-  MenuList = '/mate-system/menu/list',
-  RolePageList = '/mate-system/role/page',
-  GetAllRoleList = '/mate-system/role/list',
+  MenuList = '/system/menu/list',
+  RolePageList = '/system/role/page',
+  GetAllRoleList = '/system/role/list',
 }
 
 export const getAccountList = (params: AccountParams) =>

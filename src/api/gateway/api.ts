@@ -2,10 +2,10 @@ import { ApiVO, ApiDTO, Api as SysApi } from './model/apiModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/api/page',
-  Set = '/mate-system/api/set',
-  Del = '/mate-system/api/del',
-  Sync = '/mate-system/api/sync',
+  Page = '/system/api/page',
+  Set = '/system/api/set',
+  Del = '/system/api/del',
+  Sync = '/system/api/sync',
 }
 
 // 分页查询

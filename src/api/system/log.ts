@@ -2,8 +2,8 @@ import { LogParams, LogListGetResultModel } from './model/logModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  LogList = '/mate-system/log/page',
-  LogEmpty = '/mate-system/log/empty',
+  LogList = '/system/log/page',
+  LogEmpty = '/system/log/empty',
 }
 
 export const getLogListByPage = (params: LogParams) =>

@@ -2,10 +2,10 @@ import { BlacklistVO, BlacklistDTO, Blacklist } from './model/blacklistModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/blacklist/page',
-  Set = '/mate-system/blacklist/set',
-  Del = '/mate-system/blacklist/del',
-  Tree = '/mate-system/blacklist/list-item',
+  Page = '/system/blacklist/page',
+  Set = '/system/blacklist/set',
+  Del = '/system/blacklist/del',
+  Tree = '/system/blacklist/list-item',
 }
 
 // 分页查询

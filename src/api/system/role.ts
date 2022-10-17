@@ -2,11 +2,11 @@ import { Role, RoleVO, RoleDTO } from './model/roleModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/role/page',
-  Set = '/mate-system/role/set',
-  Del = '/mate-system/role/delete',
-  SetStatus = '/mate-system/role/set-status',
-  AllList = '/mate-system/role/all-list',
+  Page = '/system/role/page',
+  Set = '/system/role/set',
+  Del = '/system/role/delete',
+  SetStatus = '/system/role/set-status',
+  AllList = '/system/role/all-list',
 }
 
 // 菜单树

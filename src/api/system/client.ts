@@ -2,9 +2,9 @@ import { ClientParams, ClientListGetResultModel, ClientListItem } from './model/
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/client/page',
-  Set = '/mate-system/client/set',
-  Del = '/mate-system/client/del',
+  Page = '/system/client/page',
+  Set = '/system/client/set',
+  Del = '/system/client/del',
 }
 
 // 分页查询

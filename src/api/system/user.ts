@@ -2,10 +2,10 @@ import { User, UserVO, UserDTO } from './model/userModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/user/page',
-  Set = '/mate-system/user/set',
-  Del = '/mate-system/user/del',
-  SetPassword = '/mate-system/user/set-password',
+  Page = '/system/user/page',
+  Set = '/system/user/set',
+  Del = '/system/user/del',
+  SetPassword = '/system/user/set-password',
 }
 
 // 菜单树

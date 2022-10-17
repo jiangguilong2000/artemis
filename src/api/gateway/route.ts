@@ -2,10 +2,10 @@ import { RouteVO, RouteDTO, Route } from './model/routeModel';
 import { defHttp } from '/@/utils/http/axios';
 
 enum Api {
-  Page = '/mate-system/route/page',
-  Set = '/mate-system/route/set',
-  Del = '/mate-system/route/del',
-  Tree = '/mate-system/route/list-item',
+  Page = '/system/route/page',
+  Set = '/system/route/set',
+  Del = '/system/route/del',
+  Tree = '/system/route/list-item',
 }
 
 // 分页查询
